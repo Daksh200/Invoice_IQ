@@ -1,8 +1,11 @@
-#!/bin/sh
+q#!/bin/sh
 set -e
 
 # Extract server part from DATABASE_URL (remove database name)
 SERVER_URL=$(echo "$DATABASE_URL" | sed 's/\/[^/]*$//')
+
+# Render-managed PostgreSQL requires SSL. Enable it for the psql healthcheck.
+export PGSSLMODE="${PGSSLMODE:-require}"
 
 # Wait for database to be ready using psql and SERVER_URL
 echo "Waiting for PostgreSQL server to be ready at $SERVER_URL..."
