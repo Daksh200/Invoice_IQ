@@ -1,4 +1,4 @@
-q#!/bin/sh
+#!/bin/sh
 set -e
 
 # Extract server part from DATABASE_URL (remove database name)
