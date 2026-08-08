@@ -31,7 +31,7 @@ const config = {
     description: "Your personal AI accountant",
     version: packageJson.version || "0.0.1",
     baseURL: env.BASE_URL || `http://localhost:${env.PORT || "7331"}`,
-    supportEmail: "me@vas3k.com",
+    supportEmail: "djain00009@gmail.com",
   },
   upload: {
     acceptedMimeTypes: "image/*,.pdf,.doc,.docx,.xls,.xlsx",

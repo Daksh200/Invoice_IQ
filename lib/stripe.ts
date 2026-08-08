@@ -46,7 +46,7 @@ export const PLANS: Record<string, Plan> = {
       "Unlimited transactions",
       "Unlimited fields, categories and projects",
     ],
-    price: "€35 for a year",
+    price: "रु35 for a year",
     stripePriceId: "price_1RHTj1As8DS4NhOzhejpTN3I",
     limits: {
       storage: 512 * 1024 * 1024,
@@ -65,7 +65,7 @@ export const PLANS: Record<string, Plan> = {
       "Unlimited transactions",
       "Unlimited fields, categories and projects",
     ],
-    price: "€10/month",
+    price: "रु10/month",
     stripePriceId: "price_1TjxlsAs8DS4NhOzicshNQjq",
     limits: {
       storage: 1024 * 1024 * 1024,

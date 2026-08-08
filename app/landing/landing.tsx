@@ -80,7 +80,7 @@ export default function LandingPage() {
               <Link href="#start" className={primaryButton}>
                 Get Started ✨
               </Link>
-              <Link href="mailto:me@vas3k.com" className={secondaryButton}>
+              <Link href="mailto:djain00009@gmail.com" className={secondaryButton}>
                 Contact Us 💌
               </Link>
             </div>
@@ -100,7 +100,7 @@ export default function LandingPage() {
           <div className="text-center mb-16">
             <h2 className="flex flex-col gap-3 mb-4">
               <span className="text-6xl font-bold bg-gradient-to-r from-orange-500 to-amber-500 bg-clip-text text-transparent">
-                F∗ck Taxes
+                Taxes
               </span>
               <span className="text-4xl font-bold text-gray-900">
                 TaxHacker saves you time, money and nerves
@@ -344,7 +344,7 @@ export default function LandingPage() {
                 </li>
               </ul>
               <Link
-                href="https://github.com/vas3k/TaxHacker"
+                href="https://github.com/Daksh200/Invoice_IQ"
                 target="_blank"
                 className={`block w-full text-center ${primaryButton}`}
               >
@@ -380,7 +380,7 @@ export default function LandingPage() {
                 href="/cloud"
                 className="block w-full text-center px-8 py-4 bg-white text-orange-600 font-bold rounded-full hover:bg-orange-50 transition-all duration-300 shadow-lg hover:scale-105"
               >
-                Early Access: €10/month 💎
+                Early Access: रु10/month 💎
               </Link>
             </div>
           </div>
@@ -497,7 +497,7 @@ export default function LandingPage() {
 
       <footer className="py-8 px-8 bg-white border-t border-orange-100">
         <div className="max-w-7xl mx-auto text-center text-sm text-gray-500">
-          Made with ❤️ in Berlin by{" "}
+          Made with ❤️ in India by{" "}
           <Link
             href="https://github.com/vas3k"
             className="underline font-semibold hover:text-orange-600 transition-colors"
@@ -537,7 +537,7 @@ export default function LandingPage() {
                 Cookie Policy
               </Link>
               <Link
-                href="https://github.com/vas3k/TaxHacker"
+                href="https://github.com/Daksh200/Invoice_IQ"
                 target="_blank"
                 className="text-sm text-gray-500 hover:text-orange-600 font-medium transition-colors"
               >
