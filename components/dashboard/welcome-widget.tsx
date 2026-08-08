@@ -82,7 +82,7 @@ export async function WelcomeWidget() {
             Report a Bug
           </Link>
           <span className="mx-2">|</span>
-          <Link href="mailto:me@vas3k.ru" className="text-blue-500 hover:underline">
+<Link href="mailto:djain00009@gmail.com" className="text-blue-500 hover:underline">
             Contact the Author
           </Link>
         </div>

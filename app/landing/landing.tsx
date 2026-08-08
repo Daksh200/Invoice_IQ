@@ -495,14 +495,14 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <footer className="py-8 px-8 bg-white border-t border-orange-100">
+<footer className="py-8 px-8 bg-white border-t border-orange-100">
         <div className="max-w-7xl mx-auto text-center text-sm text-gray-500">
           Made with ❤️ in India by{" "}
           <Link
-            href="https://github.com/vas3k"
+            href="https://github.com/Daksh200"
             className="underline font-semibold hover:text-orange-600 transition-colors"
           >
-            @vas3k
+            @Daksh
           </Link>
         </div>
 
