@@ -79,4 +79,4 @@ ENTRYPOINT ["docker-entrypoint.sh"]
 # exec'ing the command below. We start Next directly (avoiding the second migration
 # run in package.json "start"). We bind explicitly to 0.0.0.0:$PORT so the app is
 # reachable on Render (which scans for the port on the public interface).
-CMD ["sh", "-c", "next start -H 0.0.0.0 -p \"$PORT\""]
+CMD ["sh", "-c", "./node_modules/.bin/next start -H 0.0.0.0 -p \"$PORT\""]
