@@ -75,8 +75,8 @@ RUN chmod +x /usr/local/bin/docker-entrypoint.sh /usr/local/bin/docker-cron-entr
 EXPOSE 7331
 ENTRYPOINT ["docker-entrypoint.sh"]
 
-# NOTE: The entrypoint (docker-entrypoint.sh) already runs `prisma migrate deploy`
-# before exec'ing the command below. We start Next directly here to avoid running
-# migrations a second time (package.json "start" = "prisma migrate deploy && next start").
-# `next start` picks up the PORT env var automatically (Dockerfile sets ENV PORT=7331).
-CMD ["next", "start"]
+# The entrypoint (docker-entrypoint.sh) already runs `prisma migrate deploy` before
+# exec'ing the command below. We start Next directly (avoiding the second migration
+# run in package.json "start"). We bind explicitly to 0.0.0.0:$PORT so the app is
+# reachable on Render (which scans for the port on the public interface).
+CMD ["sh", "-c", "next start -H 0.0.0.0 -p \"$PORT\""]
